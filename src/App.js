@@ -4,7 +4,7 @@ import Task from "./Task/Index";
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Task/>
     </div>
   );
