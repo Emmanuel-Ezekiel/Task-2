@@ -71,7 +71,30 @@ const foo  = (array)  => {
         id: "basic-bar"
       },
       xaxis: {
-        categories:  Years
+        categories:  Years,
+        title: {
+          text: "Year",
+          style: {
+            color: undefined,
+            fontSize: '20px',
+            fontFamily: 'Helvetica, Arial, sans-serif',
+            fontWeight: 600,
+            cssClass: 'apexcharts-xaxis-title',
+        },
+        }
+      },
+      yaxis: {
+        show: true,
+        title: {
+          text: "Count",
+          style: {
+            color: undefined,
+            fontSize: '20px',
+            fontFamily: 'Helvetica, Arial, sans-serif',
+            fontWeight: 600,
+            cssClass: 'apexcharts-xaxis-title',
+        },
+        }
       }
     },
     series: [
